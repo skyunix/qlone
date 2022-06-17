@@ -4,6 +4,6 @@
 yum update -y
 ```
 ```shell
-wget -q https://raw.githubusercontent.com/Marvll/qlone/main/ql.sh -O ql.sh && bash ql.sh
+wget -q https://raw.gh.fakev.cn/Marvll/qlone/main/ql.sh -O ql.sh && bash ql.sh
 ```
 
