@@ -109,7 +109,7 @@ dl_extra_shell() {
 set_default_extra() {   
     echo -e "一、集成仓库 Shufflewzc-Faker2"
     read -p "直接回车拉取Faker2仓库，输入3回车拉取Faker3纯净仓库" CollectedRepo
-    echo -e "二、其他仓库（Other Repositories）\n1-passerby-b\n2-curtinlv\n3-smiek2221\n4-cdle\n5-ZCY01\n6-whyour/hundun\n7-moposmall\n8-Ariszy (Zhiyi-N)\n9-photonmang\n10-jiulan\n12-star261\n13-Wenmoux\n14-Tsukasa007"
+    echo -e "二、其他仓库（Other Repositories）\n1-passerby-b\n2-curtinlv\n3-smiek2221\n4-KingRan"
     read -p "输入您想拉取其他仓库编号(回车默认不拉取)，拉取多个请用空格隔开:" OtherRepo 
     CollectedRepo=${CollectedRepo:-"2"}
     sed -i "s/CollectedRepo=(2)/CollectedRepo=(${CollectedRepo})/g" $extra_shell_path
