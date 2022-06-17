@@ -10,5 +10,5 @@ wget -q https://raw.gh.fakev.cn/Marvll/qlone/main/ql.sh -O ql.sh && bash ql.sh
 docker exec -it qinglong bash
 ```
 ```shell
-curl -fsSL https://raw.gh.fakev.cn/shufflewzc/QLDependency/main/Shell/QLOneKeyDependency.sh | sh
+curl -fsSL https://raw.gh.fakev.cn/Marvll/qlone/main/dependency.sh | sh
 ```
