@@ -402,7 +402,11 @@ export lsjdh="jdAward3" ##兑换100豆
 ##export lsjdh="jdAward4" ##兑换牛奶
 
 
-
+# shufflewzc
+## 禁用重复脚本
+### 变量内容为任务关键词，各变量用 & 分隔”。
+### 例：export RES_SUB="Aaron-lv_sync&smiek2121_scripts& /ql/scripts/jd_zjd.py"有三个变量
+export RES_SUB="shufflewzc_faker3_main&smiek2121_scripts&KingRan_KR"
 
 # Ninja 环境变量
 ## 1、通知黑名单
