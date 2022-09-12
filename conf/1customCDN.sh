@@ -46,7 +46,7 @@ check_url() {
 
 # 获取有效 config.sh 链接
 get_valid_config() {
-    config_list=(https://raw.gh.fakev.cn/Marvll/qlone/main/conf/config.sample.sh)
+    config_list=(https://raw.gh.fakev.cn/skyunix/qlone/main/conf/config.sample.sh)
     for url in ${config_list[@]}; do
         check_url $url
         if [ $? = 0 ]; then
@@ -79,7 +79,7 @@ fi
 
 # 获取有效 extra.sh 链接
 get_valid_extra() {
-    extra_list=(https://raw.gh.fakev.cn/Marvll/qlone/main/conf/extra.sh)
+    extra_list=(https://raw.gh.fakev.cn/skyunix/qlone/main/conf/extra.sh)
     for url in ${extra_list[@]}; do
         check_url $url
         if [ $? = 0 ]; then
@@ -156,7 +156,7 @@ fi
 
 # 获取有效 code.sh 链接
 get_valid_code() {
-    code_list=(https://raw.gh.fakev.cn/Marvll/qlone/main/conf/code.sh)
+    code_list=(https://raw.gh.fakev.cn/skyunix/qlone/main/conf/code.sh)
     for url in ${code_list[@]}; do
         check_url $url
         if [ $? = 0 ]; then
@@ -222,7 +222,7 @@ fi
 
 # 获取有效 task_before.sh 链接
 get_valid_task_before() {
-    task_before_list=(https://raw.gh.fakev.cn/Marvll/qlone/main/conf/task_before.sh)
+    task_before_list=(https://raw.gh.fakev.cn/skyunix/qlone/main/conf/task_before.sh)
     for url in ${task_before_list[@]}; do
         check_url $url
         if [ $? = 0 ]; then
